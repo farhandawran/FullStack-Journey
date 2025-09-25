@@ -1,0 +1,29 @@
+# Day 2 – HTML Tables
+
+Today, I learned how to create and structure tables in HTML.  
+I explored how to use `<table>`, `<tr>`, `<th>`, and `<td>` tags along with attributes like `rowspan` and `colspan`.
+
+---
+
+## 📘 What I Learned
+I practiced creating a table structure in HTML.  
+I used table headers (`<th>`) for column labels.  
+I added table rows (`<tr>`) to display student data.  
+I also learned how to merge cells with `rowspan` and `colspan`.
+
+---
+
+## 📂 Project Structure
+Day-2/  
+ └── tables/  
+      └── index.html  
+
+---
+
+## 🖥️ Output Preview
+The table displays student data (Name, ID, Department) with merged rows for the department column.
+
+---
+
+## 🔗 Repository Link
+[Visit My GitHub Profile](https://github.com/farhandawran)
