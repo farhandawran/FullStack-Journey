@@ -1,0 +1,29 @@
+README.md
+# Day 4 - HTML Forms (Intermediate)
+
+## 📌 Concepts Learned
+- Input fields: `text`, `email`, `password`
+- Radio buttons for gender selection
+- Checkboxes for hobbies
+- Dropdown (`<select>`) for country selection
+- `<textarea>` for comments
+- Submit button to complete the form
+
+## 💻 Project: Registration Form
+Created a registration form that includes:
+- Name, Email, and Password fields
+- Gender selection using radio buttons
+- Multiple hobbies selection using checkboxes
+- Country dropdown menu
+- A textarea for user comments
+- Submit button
+
+## 📂 Folder Structure
+Day-04-Forms-Intermediate/
+│── index.html  
+│── README.md  
+
+## 🚀 Live Skills
+- Learned how to handle different input types
+- Practiced combining radio buttons, checkboxes, dropdowns, and textarea
+- Structured a complete registration form
