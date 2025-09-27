@@ -1,4 +1,4 @@
-README.md
+
 # Day 4 - HTML Forms (Intermediate)
 
 ## 📌 Concepts Learned
@@ -13,15 +13,7 @@ README.md
 Created a registration form that includes:
 - Name, Email, and Password fields
 - Gender selection using radio buttons
-- Multiple hobbies selection using checkboxes
-- Country dropdown menu
-- A textarea for user comments
-- Submit button
-
-## 📂 Folder Structure
-Day-04-Forms-Intermediate/
-│── index.html  
-│── README.md  
+- Multiple hobbies selection using checkboxe
 
 ## 🚀 Live Skills
 - Learned how to handle different input types
