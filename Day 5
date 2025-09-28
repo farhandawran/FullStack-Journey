@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - HTML Lists</title>
+</head>
+<body>
+    <h1>Day 5: Practicing HTML Lists</h1>
+
+    <h2>Top 5 Programming Languages</h2>
+    <ol>
+        <li>Java
+            <ul>
+                <li>Spring Boot</li>
+                <li>Hibernate</li>
+            </ul>
+        </li>
+        <li>Python
+            <ul>
+                <li>Django</li>
+                <li>Flask</li>
+            </ul>
+        </li>
+        <li>C++</li>
+        <li>JavaScript
+            <ul>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+        <li>Go</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Coding</li>
+        <li>Reading Tech Blogs</li>
+        <li>Football</li>
+    </ul>
+</body>
+</html>
