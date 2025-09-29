@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+</head>
+
+<body>
+
+    <video src="example" width="255" controls autoplay loop muted></video>
+
+    <h3>Select Menu</h3>
+    <header>
+        <nav>
+            <label for="country">Choose your Country:</label>
+            <select name="country" id="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <label for="resume">Upload Your Resume:</label>
+            <input type="file" id="resume" name="resume">
+        </div>
+
+        <div>
+            <label for="dob">Select your DOB:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <div>
+            <label for="age">Enter your Age:</label>
+            <input type="number" id="age" name="age" min="18" max="60">
+        </div>
+    </main>
+    <footer>
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear Form">
+        </div>
+    </footer>
+</body>
+
+</html>
