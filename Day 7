@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+</head>
+<body>
+    <h1>Day 7 - Lists and Audio</h1>
+
+    <!-- Ordered List -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>HTML Basics</li>
+        <li>Forms</li>
+        <li>Tables</li>
+        <li>Lists</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Frontend</li>
+        <li>Backend</li>
+        <li>Database</li>
+        <li>Deployment</li>
+    </ul>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Programming Languages
+            <ol>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+            </ol>
+        </li>
+        <li>Tools
+            <ol>
+                <li>Git</li>
+                <li>VS Code</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- Audio Element -->
+    <h2>Audio Example</h2>
+    <audio controls>
+        <source src="example.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
