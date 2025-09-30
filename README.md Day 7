@@ -1,0 +1,11 @@
+# Day 7 - HTML Lists and Audio
+
+Today I explored **HTML lists and multimedia elements**.  
+
+### 📚 Concepts Covered:
+- **Ordered List (`<ol>`)** → Creates numbered lists.  
+- **Unordered List (`<ul>`)** → Creates bulleted lists.  
+- **Nested Lists** → A list inside another list for hierarchy.  
+- **Audio Element (`<audio>`)** → Embedding audio files with play controls.  
+
+This project demonstrates how lists help in organizing content and how audio can be integrated into webpages for better user experience.
