@@ -1,0 +1,12 @@
+p{
+    color:rgb(255, 60, 0);
+    background-color: yellow;
+    font-size: large;
+}
+div{
+    background-color: blueviolet;
+   
+}
+*{
+    font-style: italic;
+}
