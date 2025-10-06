@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Section - Flexbox</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    .team-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .team-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .team-member {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-10px);
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .team-member h3 {
+      margin: 10px 0 5px;
+      color: #222;
+    }
+
+    .team-member p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .team-member {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="team-section">
+    <h1>Our Amazing Team</h1>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John">
+        <h3>John Smith</h3>
+        <p>Frontend Developer</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sara">
+        <h3>Sara Khan</h3>
+        <p>UI/UX Designer</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Alex">
+        <h3>Alex Johnson</h3>
+        <p>Backend Engineer</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Mia">
+        <h3>Mia Taylor</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
