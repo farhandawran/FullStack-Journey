@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 16 - CSS Selectors Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      margin: 40px;
+    }
+
+    h1 {
+      color: #007acc;
+      text-align: center;
+      font-size: 2.5em;
+    }
+
+    p {
+      color: #333;
+      text-align: justify;
+      line-height: 1.6;
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    .highlight {
+      background-color: #fff4b8;
+      padding: 5px;
+      border-radius: 6px;
+    }
+
+    #special {
+      color: #e63946;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Day 16 – CSS Selectors Practice</h1>
+
+  <p>Today I explored how to style elements using <span class="highlight">class</span> and <span id="special">ID</span> selectors in CSS. These help target specific parts of a web page to make it look more organized and attractive.</p>
+</body>
+</html>
