@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Gallery - Day 21</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f2f4f8;
+      color: #333;
+    }
+
+    header {
+      background: #0077ff;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .intro {
+      text-align: center;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      width: 90%;
+      margin: auto;
+    }
+
+    .photo {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .photo:hover {
+      transform: scale(1.05);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .caption {
+      padding: 10px;
+      text-align: center;
+      font-weight: 500;
+      background: #fafafa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0077ff;
+      color: white;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.5rem;
+      }
+      .photo img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Day 21: Responsive Gallery Page</header>
+
+  <section class="intro">
+    <p>This responsive photo gallery demonstrates how <strong>Flexbox</strong> and <strong>CSS Grid</strong> work together to create modern, dynamic layouts that adapt beautifully to any screen size.</p>
+  </section>
+
+  <section class="gallery">
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?nature" alt="Nature"><div class="caption">Nature</div></div>
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?city" alt="City"><div class="caption">City</div></div>
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?tech" alt="Technology"><div class="caption">Technology</div></div>
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?forest" alt="Forest"><div class="caption">Forest</div></div>
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?mountain" alt="Mountain"><div class="caption">Mountain</div></div>
+    <div class="photo"><img src="https://source.unsplash.com/random/300x200?beach" alt="Beach"><div class="caption">Beach</div></div>
+  </section>
+
+  <footer>Built with ❤️ by Farhan Ahmad | Day 21 of my Full Stack Journey</footer>
+</body>
+</html>
