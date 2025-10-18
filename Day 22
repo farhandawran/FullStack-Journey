@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 22 - CSS Animations & Transitions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e1bee7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Button transition effect */
+    .btn {
+      background-color: #6200ea;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #03dac6;
+      transform: scale(1.1);
+    }
+
+    /* Animated box */
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #ff4081;
+      margin-top: 40px;
+      border-radius: 10px;
+      animation: moveBox 3s infinite alternate ease-in-out;
+    }
+
+    @keyframes moveBox {
+      0% {
+        transform: translateY(0);
+        background-color: #ff4081;
+      }
+      50% {
+        transform: translateY(-80px) rotate(20deg);
+        background-color: #fdd835;
+      }
+      100% {
+        transform: translateY(0) rotate(-20deg);
+        background-color: #6200ea;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Day 22: CSS Animations & Transitions</h1>
+  <button class="btn">Hover Me</button>
+  <div class="box"></div>
+</body>
+</html>
