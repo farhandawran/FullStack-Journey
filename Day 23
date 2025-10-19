@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 23 - CSS Position and Z-Index</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      z-index: 3;
+    }
+
+    section {
+      margin-top: 80px;
+      padding: 20px;
+      height: 1500px;
+    }
+
+    .relative-box {
+      position: relative;
+      background-color: #f0f0f0;
+      width: 300px;
+      height: 200px;
+      margin: 40px auto;
+      border: 2px solid #999;
+    }
+
+    .absolute-item {
+      position: absolute;
+      top: 50px;
+      left: 80px;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      z-index: 2;
+    }
+
+    .overlap {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 70px;
+      left: 100px;
+      background-color: #ff5722;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .sticky-title {
+      position: sticky;
+      top: 60px;
+      background-color: #2196f3;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 4px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <header>Day 23 – CSS Position and Z-Index</header>
+
+  <section>
+    <h2 class="sticky-title">Scroll Down to See Sticky Header Effect</h2>
+
+    <div class="relative-box">
+      <div class="absolute-item">Absolute Item</div>
+      <div class="overlap">Z-Index</div>
+    </div>
+
+    <p>
+      This example demonstrates how different CSS position values behave and how z-index controls overlapping layers.
+    </p>
+  </section>
+</body>
+</html>
