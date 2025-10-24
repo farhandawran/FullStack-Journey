@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 25 - CSS Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+      padding: 30px;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+
+    .profile-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 180px;
+      padding: 20px;
+      background-color: #f0f7ff;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .profile-card:hover {
+      transform: scale(1.05);
+      background-color: #e8f0ff;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin: 8px 0 5px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="profile-card">
+      <img src="https://i.pravatar.cc/100?img=1" alt="User">
+      <h3>Sarah</h3>
+      <p>Frontend Developer</p>
+    </div>
+    <div class="profile-card">
+      <img src="https://i.pravatar.cc/100?img=2" alt="User">
+      <h3>Ali</h3>
+      <p>Backend Engineer</p>
+    </div>
+    <div class="profile-card">
+      <img src="https://i.pravatar.cc/100?img=3" alt="User">
+      <h3>John</h3>
+      <p>UI/UX Designer</p>
+    </div>
+  </div>
+</body>
+</html>
