@@ -251,4 +251,58 @@ figcaption {
   border: 0;
 }
 
+/* ---------- Contact page and form ---------- */
+dl dt {
+  font-weight: bold;
+  color: #14325f;
+}
+
+dl dd {
+  margin: 0 0 10px 0;
+}
+
+.map {
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 12px 0 4px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #1f4e9c;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #f2a900;
+  background-color: #fffbee;
+}
+
+button {
+  margin-top: 16px;
+  background-color: #1f4e9c;
+  color: #ffffff;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #14325f;
+}
 
