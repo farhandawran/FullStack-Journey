@@ -306,3 +306,34 @@ button:hover {
   background-color: #14325f;
 }
 
+/* ---------- Responsive (phones and small screens) ---------- */
+@media (max-width: 768px) {
+  .media-layout {
+    grid-template-columns: 1fr;   /* one column */
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .header-inner {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .nav-list a {
+    padding: 6px 10px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
