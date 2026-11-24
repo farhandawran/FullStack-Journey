@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My favourite social media posts, pictures and YouTube videos.">
+  <meta name="author" content="Farhan Ahmad">
+  <meta name="keywords" content="portfolio, HTML, CSS, Farhan Ahmad">
+  <title>Favourite Media | Farhan Ahmad Portfolio</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">Farhan Ahmad</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html" aria-current="page">Favourite Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>My Favourite Media</h1>
+
+    <!-- Two-column layout: left = social media and images, right = videos -->
+    <div class="media-layout">
+
+      <section>
+        <h2>Social Media Posts</h2>
+
+        <article class="post">
+          <h3>LinkedIn</h3>
+          <p>"Consistency beats talent. Write a little code every day and the results will come."</p>
+          <p class="meta">Post I liked about learning to code</p>
+        </article>
+
+        <article class="post">
+          <h3>X (Twitter)</h3>
+          <p>"Build small things, ship them, then make them better."</p>
+          <p class="meta">Post I liked about building projects</p>
+        </article>
+
+        <article class="post">
+          <h3>Instagram</h3>
+          <p>"Your side project today can become your business tomorrow."</p>
+          <p class="meta">Post I liked about entrepreneurship</p>
+        </article>
+
+        <h2>Images</h2>
+
+        <figure>
+          <img src="images/profile.png" alt="Local image: my profile picture" width="400" height="400">
+          <figcaption>Local image (stored in the images folder).</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/id/237/600/400" alt="Online image: a black puppy sitting on a road" width="600" height="400">
+          <figcaption>Online image (loaded from picsum.photos).</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Favourite YouTube Videos</h2>
+
+        <article class="video">
+          <h3>Video 1: Never Gonna Give You Up</h3>
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Never Gonna Give You Up" loading="lazy" allowfullscreen></iframe>
+        </article>
+
+        <article class="video">
+          <h3>Video 2: Me at the zoo</h3>
+          <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Me at the zoo" loading="lazy" allowfullscreen></iframe>
+        </article>
+
+        <article class="video">
+          <h3>Video 3: Gangnam Style</h3>
+          <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="Gangnam Style" loading="lazy" allowfullscreen></iframe>
+        </article>
+
+        <article class="video">
+          <h3>Video 4: Despacito</h3>
+          <iframe src="https://www.youtube.com/embed/kJQP7kiw5Fk" title="Despacito" loading="lazy" allowfullscreen></iframe>
+        </article>
+
+        <article class="video">
+          <h3>Video 5: Big Buck Bunny</h3>
+          <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Big Buck Bunny" loading="lazy" allowfullscreen></iframe>
+        </article>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Farhan Ahmad | Iqra University, H-9 Campus, Islamabad</p>
+  </footer>
+
+</body>
+</html>
