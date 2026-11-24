@@ -24,3 +24,8 @@ css/style.css
 images/profile.png
 images/favicon.png
 ```
+
+## How it was published
+
+1. Pushed all files to the `main` branch of this repository.
+2. Settings -> Pages -> Branch: `main`, Folder: `/ (root)`.
