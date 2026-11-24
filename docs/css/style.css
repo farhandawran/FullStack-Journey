@@ -1,0 +1,121 @@
+/* ============================================
+   style.css - Farhan Ahmad portfolio
+   Colours: blue #1f4e9c, dark blue #14325f,
+   light blue #eef3fb
+   ============================================ */
+
+/* ---------- Base styles: reset, fonts, colours, spacing ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #f4f7fc;
+  min-height: 100vh;          /* keeps the footer at the bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1, h2, h3 {
+  color: #14325f;
+  margin-bottom: 12px;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; margin-top: 8px; }
+h3 { font-size: 1.15rem; }
+
+p, ul, ol {
+  margin-bottom: 14px;
+}
+
+ul, ol {
+  padding-left: 24px;
+}
+
+a {
+  color: #1f4e9c;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+/* Home page intro (uses flexbox) */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.hero img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1f4e9c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #14325f;
+}
+
+/* Cards */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  flex: 1 1 250px;
+  background-color: #ffffff;
+  border-left: 5px solid #1f4e9c;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #14325f;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+}
+
+
+
+
+
