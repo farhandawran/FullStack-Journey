@@ -15,17 +15,20 @@ A simple 4-page portfolio website built with only HTML and CSS (no JavaScript, n
 
 ## Folder structure
 
+All website files are inside the `docs` folder of this repository (FullStack-Journey).
+
 ```
-index.html
-hobbies.html
-media.html
-contact.html
-css/style.css
-images/profile.png
-images/favicon.png
+docs/index.html
+docs/hobbies.html
+docs/media.html
+docs/contact.html
+docs/css/style.css
+docs/images/profile.png
+docs/images/favicon.png
 ```
 
 ## How it was published
 
 1. Pushed all files to the `main` branch of this repository.
-2. Settings -> Pages -> Branch: `main`, Folder: `/ (root)`.
+2. Settings -> Pages -> Branch: `main`, Folder: `/docs`.
+3. Live link: https://farhandawran.github.io/FullStack-Journey/
